@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background: #cae9ff;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.talk {
+  text-align: center;
+  height: 40px;
+  width: 5em;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.talk:hover {
+  background: #ebf7ff;
+}
+
+.content {
+  font-size: 30px;
+}
+
+.made-by {
+  color: black;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px;
+  font-size: 18px;
+}
+h1{
+  margin-bottom: 5px;
+}
